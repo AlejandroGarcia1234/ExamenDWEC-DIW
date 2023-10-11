@@ -13,7 +13,7 @@ input{
     padding: 5px;
 }
 /*Es importante especificar que no queremos un borde en el botón, darle un padding para que el texto quede bien en el centro, 
- además de que el cursor que vamos a utilizar sea la flechita.*/
+ además de que el cursor que vamos a utilizar sea la típica flechita.*/
 button{
     background-color: #007bff;
     color: whitesmoke;
