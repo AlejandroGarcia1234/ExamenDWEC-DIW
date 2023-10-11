@@ -8,11 +8,13 @@ calculateButton.addEventListener("click", () => {
 
     if ( !isNaN(length) && !isNaN(width)){
         const perimetro = 2 * length + width;
-        const area = length * width
+        const area = length * width;
+        const diagonal = Math.sqrt(Math.pow(length, 2) + Math.pow(width, 2))
 
         resultContainer.innerHTML = `
             <p>El perímetro del rectángulo es: ${perimetro}</p>
             <p>El área del rectángulo es: ${area}</p>
+            <p>La diagonal del rectángulo es: ${diagonal}</p>
             
    ` }
     else {
