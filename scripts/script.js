@@ -24,6 +24,7 @@ calculateButton.addEventListener("click", () => {
             <p>La diagonal del rectángulo es: ${diagonal}</p>
             
    ` }
+//Si no introducimos valores, o introducimos unos erroneos, saldrá el siguiente mensaje diciendo que ingreses unos válidos.
     else {
         resultContainer.innerHTML = `Por favor, ingrese valores válidos.`;
     }
