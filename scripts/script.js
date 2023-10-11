@@ -15,6 +15,9 @@ calculateButton.addEventListener("click", () => {
         const area = length * width;
         const diagonal = Math.sqrt(Math.pow(length, 2) + Math.pow(width, 2))
 
+//Lo que conseguimos con la siguiente función será mostrar bajo el botón de calcular los resultados de las operaciones que hemos
+//especifado anteriormente como constantes, saliendo los resultados con el correspondiente texto indicado más el resultado
+//de estas operaciones.
         resultContainer.innerHTML = `
             <p>El perímetro del rectángulo es: ${perimetro}</p>
             <p>El área del rectángulo es: ${area}</p>
